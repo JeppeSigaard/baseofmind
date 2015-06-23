@@ -1,0 +1,73 @@
+#smamo-ct{
+    display: block;
+    overflow:auto;
+}
+
+#smamo-ct div{
+    display: inline-block;
+    float:left;
+    width:50%;
+}
+
+#smamo-ct div label {
+    display: inline-block;
+    margin: 5px 0px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#smamo-ct div input, 
+#smamo-ct div textarea {
+    width: 95%;
+    margin: 0px 5% 0px 0px;
+                box-sizing: border-box;
+    -webkit-    box-sizing: border-box;
+    -moz-       box-sizing: border-box;
+    -o-         box-sizing: border-box;
+    -ms-        box-sizing: border-box;
+}
+
+#smamo-ct div textarea {
+    height:107px;
+    resize: none;
+}
+
+#smamo-ct a#ct-submit {
+    clear: both;
+    float: right;
+    padding: 2px 20px;
+    margin: 8px 2.5% 0px;
+    background-color: #6e0821;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#smamo-ct a#ct-submit.loading {
+    
+    background-image: url(loading-blue.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    color:transparent;
+
+}
+
+@media(max-width:600px){
+    
+    #smamo-ct div{
+        width:100%;
+        display: block;
+        float: none;
+    }
+    
+    #smamo-ct div input, 
+    #smamo-ct div textarea {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #smamo-ct a#ct-submit {
+        margin: 8px 0px 0px; 
+    }
+    
+}

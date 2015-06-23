@@ -14,7 +14,7 @@ class Bavotasan_Preview_Pro {
 	 * @since 1.0.0
 	 */
 	public function admin_menu() {
-		add_theme_page( sprintf( __( 'Upgrade to %s Pro', 'matheson' ), BAVOTASAN_THEME_NAME ), sprintf( __( 'Upgrade %s', 'matheson' ), BAVOTASAN_THEME_NAME ), 'edit_theme_options', 'bavotasan_preview_pro', array( $this, 'bavotasan_preview_pro' ) );
+		//add_theme_page( sprintf( __( 'Upgrade to %s Pro', 'matheson' ), BAVOTASAN_THEME_NAME ), sprintf( __( 'Upgrade %s', 'matheson' ), BAVOTASAN_THEME_NAME ), 'edit_theme_options', 'bavotasan_preview_pro', array( $this, 'bavotasan_preview_pro' ) );
 	}
 
 	public function bavotasan_preview_pro() {

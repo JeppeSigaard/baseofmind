@@ -15,7 +15,7 @@ function sendEmail($name,$virk,$from,$to,$subject,$message){
 	$header.= "Content-Type: text/html; charset=utf-8\r\n"; 
 	$header.= "X-Priority: 2\r\n"; 
     $header.= "CC:".$from;
-	mail($to, $subject, nl2br($message), $header);
+	wp_mail($to, $subject, nl2br($message), $header);
 }
 
 // cheapass nonce
